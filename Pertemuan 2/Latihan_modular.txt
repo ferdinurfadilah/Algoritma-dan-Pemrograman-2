@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int kuadrat (int a){
+	int b;
+	b = a * a;
+	return b;
+}
+int main(){
+	int a;
+	cout<<" masukan nilai A = ";cin>>a;
+	cout<<endl;
+	a = kuadrat(a);
+	cout<<" hasil kuadrat = "<<a<<endl;
+	cout<<endl;	
+	return 0;
+}
